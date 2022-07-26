@@ -8,6 +8,25 @@
 
 int main()
 {
+	//std::list<int> A;
+	//std::vector<int> VA;
+	//std::stack<int> SA;
+
+	//VA.push_back(0);
+	//VA.push_back(1);
+	//VA.push_back(2);
+	//for (auto Value : VA)
+	//{
+	//	std::cout << Value << std::endl;
+	//}
+	//for (int i = 0;
+	//	i < A.size();
+	//	++i)
+	//{
+	//	std::cout << A[i] << std::endl;
+
+	//}
+
 	World* MyWorld = new World();
 
 	MyWorld->SpawnActor(new Player());

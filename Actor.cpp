@@ -4,6 +4,10 @@
 
 void Actor::Render()
 {
-	COORD Cur
+    COORD Cur;
+    Cur.X = Location.X;
+    Cur.Y = Location.Y;
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), Cur);
 
+    std::cout << Shape;
 }

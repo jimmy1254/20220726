@@ -10,6 +10,5 @@ public:
 	int X;
 	int Y;
 
-	char Shape;
+	
 };
-
